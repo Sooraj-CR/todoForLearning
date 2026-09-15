@@ -82,7 +82,7 @@ const Todo = () => {
   };
 
   const handleEdit = (id: number) => {
-    const newTodo = prompt("Enter the new todo you wish to update here-->");
+    const newTodo = prompt("Enter the new todo you wish to update here");
     if (newTodo) {
       setTodos(
         todos.map((todo) =>
